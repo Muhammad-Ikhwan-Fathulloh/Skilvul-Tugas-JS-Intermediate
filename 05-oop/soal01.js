@@ -4,12 +4,12 @@
 // 3. Buatlah sebuah alasan dari poin ke-2, mengapa baris kode tersebut menampilkan hasil baik itu sama ataupun tidak.
 const obj = {
     fun1: function() {
-      console.log("fun1", this);
+        console.log("fun1", this);
     },
     fun2: () => {
-      console.log("fun2", this);
+        console.log("fun2", this);
     }
-  };
-  
-  obj.fun1();
-  obj.fun2();
+};
+
+obj.fun1();
+obj.fun2();

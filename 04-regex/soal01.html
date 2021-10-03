@@ -22,10 +22,16 @@
         const elInputUsername = document.querySelector("#username");
         const elBtnSubmit = document.querySelector("#btn-submit");
         const elForm = document.querySelector("#form");
-        const usernameValidator = new RegExp(".....");
+        const usernameValidator = new RegExp(/^[A-Za-z .]{3,15}$/);
 
         elForm.onsubmit = function(e) {
             e.preventDefault();
+            if (usernameValidator.test(elInputUsername.value)) {
+                alert(`selamat datang ${elInputUsername.value}`)
+            } else {
+                alert(`mohon masukan username yang valid`)
+            }
+
         }
     </script>
 </body>

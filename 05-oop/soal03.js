@@ -1,5 +1,5 @@
-class Phone {  
-    
+class Phone {
+
 }
 
 const phone = new Phone("Skilvul Mobile co", 64, 4);

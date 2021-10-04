@@ -1,5 +1,9 @@
 class Phone {
-
+    constructor(brand, storage, ram) {
+        this.brand = brand;
+        this.storage = storage;
+        this.ram = ram;
+    }
 }
 
 const phone = new Phone("Skilvul Mobile co", 64, 4);

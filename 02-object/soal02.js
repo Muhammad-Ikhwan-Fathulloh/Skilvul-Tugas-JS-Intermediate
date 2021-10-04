@@ -1,5 +1,15 @@
 function getObjectValue(obj, path) {
-
+    let splitPath = path.split('.');
+    let result = obj;
+    for (let i = 0; i < splitPath.length; i++) {
+        if (Object.keys(result).includes(splitPath[i])) {
+            result = result[splitPath[i]];
+        } else {
+            result = null;
+            break;
+        }
+    }
+    return result;
 }
 
 const milkBasedCoffee = {

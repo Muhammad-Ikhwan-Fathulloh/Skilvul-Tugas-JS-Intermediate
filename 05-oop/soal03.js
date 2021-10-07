@@ -7,14 +7,14 @@ class Phone {
     getBrandName() {
         return this.brand
     }
-    setBrandName(b) {
-        this.brand = b
+    setBrandName(brd) {
+        this.brand = brd
     }
     printSpecification() {
         console.log(`Ponsel ini memiliki storage: ${this.storage} dan ram: ${this.ram}`)
     }
-    setSpecification(s, r) {
-        this.storage = s
-        this.ram = r
+    setSpecification(stor, ram) {
+        this.storage = stor
+        this.ram = ram
     }
 }

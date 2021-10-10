@@ -1,0 +1,11 @@
+Apa itu localStorage? 
+merupakan sebuah penyimpanan lokal yang memiliki memori yang kecil 
+sekitar 5 mb biasanya di simpan di web pada sisi client
+
+Apa itu cookies? 
+merupakan sebuah penyimpanan lokal juga lebih ke rekam jejak 
+client saat menjelajahi web ukurannya sangat kecil
+
+Apa perbedaan antara localStorage dan sessionStorage?
+localStorage menyimpan informasi selama pengguna tidak menghapusnya
+sessionStorage menyimpan informasi selama web berlangsung sampai di tutup

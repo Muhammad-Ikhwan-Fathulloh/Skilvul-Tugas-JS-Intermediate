@@ -1,0 +1,17 @@
+// 1. Apa itu Encapsulation? Mengapa kita membutuhkannya?
+jawaban : merupakan sebuah pengikatan jadi ibarat sebuah 
+kapsul yang menghimpun seluruh unsur seperti data.
+
+// 2. Apa itu Abstraction? Mengapa kita membutuhkannya?
+jawaban : merupakan informasi yang berupa sekumpulan data
+yang memiliki fungsi, dan fungsi ini akan diturunkan pada 
+sub class tetapi induk ini tidak bisa diubah ubah, sehingga
+sub class akan menurunkan metode dari abstract.
+
+// 3. Apa itu Inheritance? Mengapa kita membutuhkannya?
+jawaban : merupakan mewarisi sesuatu dimana induk akan 
+mewarisi atau menurunkan yang ada di induk ke anak.
+
+// 4. Apa itu Polymorpishm? Mengapa kita membutuhkannya?
+jawaban : merupakan cara agar sebuah obyek dapat diakses 
+pada interface yang berbeda beda.

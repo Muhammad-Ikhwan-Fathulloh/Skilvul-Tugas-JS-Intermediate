@@ -15,5 +15,7 @@
 // 6. Perbaiki baris kode dibawah sehingga ia akan menampilkan angka yang sama
 for (var i = 1; i <= 5; i++) {
     console.log("first log: ", i); // 01 - Pertama
-    setTimeout(() => console.log("second log: ", i), 1000); // 02 - Kedua
+    setTimeout(() => {    
+        console.log("second log: ", i) // 02 - Kedua
+    }, 100);
 }

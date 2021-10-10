@@ -1,5 +1,10 @@
-const isR18Plus = () => {
-
+const isR18Plus = (age) => {
+    if (properAge) {
+        resolve('anda sudah dewasa')
+    }if(underAge) {
+        resolve('anda masih dibawah umur')
+    }
+    reject('not found')
 }
 const printR18Plus = async() => {
     const underAge = await isR18Plus(10);

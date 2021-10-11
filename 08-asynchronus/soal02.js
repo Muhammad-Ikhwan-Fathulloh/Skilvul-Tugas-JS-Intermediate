@@ -1,7 +1,8 @@
 const isR18Plus = (age) => {
     if (properAge) {
         resolve('anda sudah dewasa')
-    }if(underAge) {
+    }
+    if (underAge) {
         resolve('anda masih dibawah umur')
     }
     reject('not found')
